@@ -25,13 +25,18 @@ This code will be upgraded constantly to persue user-friendly interface. If you 
 
 # Reference:
 
+Abuter, R., Amorim, A., Bauböck, M., et al. 2021, Astronomy Astrophysics, 647, A59
 
-Abuter, R., Amorim, A., Bauböck, M., et al. 2021, Astronomy Astrophysics,
-647, A59
 Damour, T. & Taylor, J. H. 1991, ApJ, 366, 501
-Guo, Y. J., Freire, P. C. C., Guillemot, L., et al. 2021, Astronomy Astrophysics,
-654, A16
+
+Eilers, A.-C., Hogg, D. W., Rix, H.-W., & Ness, M. K. 2019, The Astrophysical Journal, 871, 120
+
+Guo, Y. J., Freire, P. C. C., Guillemot, L., et al. 2021, A&A, 654, A16
+
 Holmberg, J. & Flynn, C. 2004, MNRAS, 352, 440
-Lazaridis, K., Wex, N., Jessner, A., et al. 2009, Monthly Notices of the Royal
-Astronomical Society, 400, 805–814
+
+Lazaridis, K., Wex, N., Jessner, A., et al. 2009, Monthly Notices of the Royal Astronomical Society, 400, 805–814
+
+Lorimer, D. R. & Kramer, M. 2004, Handbook of Pulsar Astronomy, Vol. 4
+
 Shklovskii, I. S. 1970, Soviet Ast., 13, 562
