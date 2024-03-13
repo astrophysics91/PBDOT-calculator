@@ -1,17 +1,17 @@
 # PBDOT-calculator
 
 To determine the factors that affect the observed orbital period change ($\dot{P_{b}}$) in pulsar binary, complicated equations should be determined.
-This code uses a numerical method to calculate different $\dot{P_{b}}$ effects: Shklovskii effect, Galactic acceleration, and GW emission.
-The code requires a parameter file to read the obtained values and uncertainties. 
-The mean and standard deviation of the probability density distributions show the measured values and errors.
+This code uses a numerical method to calculate different $\dot{P_{b}}$ effects: Shklovskii effect, Galactic acceleration, and Gravitational wave damping.
+The code requires a parameter file to read the related values and uncertainties of timing parameters.
+This code measures values and errors based on the mean and standard deviation of probability density distributions.
 
 # What you need
 
 a. Parameter file (mandatory).
 - please provide *par file in Tempo2 format.
 
-b. expected distance (mandatory). 
-- you can modify this in the code.
+b. expected distance (mandatory).
+- you can modify this in the code. The uploaded version uses iteration of the distance, "d=np.linspace(655,1200,6)".
 - This code uses a fractional error of the distance
 - eg) 100 pc with 0.3 means that the uncertainty of the distance is 30 pc.
 
@@ -19,10 +19,16 @@ c. Mass MCMC generator (optional).
 - If you have mass probability distributions obtained from TempoNEST, you can provide this.
 - Alternatively, you can make the mass array by yourself. If you just want to find $\dot{P}_{b,int}$ by subtracting the obtained $\dot{P_{b}}$ from the Shklovskii effect, Galactic acceleration, you can use the option, subtract_only=True in PK.pbdot() function, additionally. 
 
+d. Python packages
+- Astropy, numpy, and pandas
+
 # Others
 
 This code will be upgraded constantly to persue user-friendly interface and description. 
 If you have any comments, please mail to me :D
+** jjang@mpifr-bonn.mpg.de
+
+If you use this code, please cite the paper (It is still under review. Submitted to A\&A)
 
 # Reference:
 
