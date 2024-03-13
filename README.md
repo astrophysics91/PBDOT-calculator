@@ -1,7 +1,8 @@
 # PBDOT-calculator
 
-To determine the factors that affect the observed orbital period change ($\dot{P_{b}}$) in pulsar binary, complicated equations should be determined.
-This code uses a numerical method to calculate different $\dot{P_{b}}$ effects: Shklovskii effect, Galactic acceleration, and Gravitational wave damping.
+There are three different factors (Shklovskii effect, Galactic acceleration, and Gravitational wave damping) that affect the observed orbital period change ($\dot{P_{b}}$) in a pulsar binary.
+To find each, complicated equations should be solved.
+This code uses a numerical method to calculate different $\dot{P_{b}}$ effects.
 The code requires a parameter file to read the related values and uncertainties of timing parameters.
 This code measures values and errors based on the mean and standard deviation of probability density distributions.
 
