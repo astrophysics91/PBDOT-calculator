@@ -25,8 +25,7 @@ d. Python packages
 # Others
 
 This code will be upgraded constantly to persue user-friendly interface and description. 
-If you have any comments, please mail to me :D
-** jjang@mpifr-bonn.mpg.de
+If you have any comments, please mail to me (** jjang@mpifr-bonn.mpg.de).
 
 If you use this code, please cite the paper (It is still under review. Submitted to A\&A)
 
