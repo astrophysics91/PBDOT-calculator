@@ -1,6 +1,7 @@
 # PBDOT-calculator
 
-This code uses MCMC to calculate different $\dot{P_{b}}$ effects: Shklovskii effect, Galactic acceleration, and GW emission.
+To determine the factors that affect the observed orbital period change ($\dot{P_{b}}$) in pulsar binary, complicated equations should be determined.
+This code uses a numerical method to calculate different $\dot{P_{b}}$ effects: Shklovskii effect, Galactic acceleration, and GW emission.
 The code requires a parameter file to read the obtained values and uncertainties. 
 The mean and standard deviation of the probability density distributions show the measured values and errors.
 
